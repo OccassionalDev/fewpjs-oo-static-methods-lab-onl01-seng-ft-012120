@@ -29,8 +29,7 @@ class Formatter {
           result.push(this.capitalize(splitStr[i]));
         }
       }
-      
-      return result.join(" ");
     }
+    return result.join(" ");
   }
 }
