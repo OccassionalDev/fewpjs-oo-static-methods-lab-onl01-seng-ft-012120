@@ -13,10 +13,11 @@ class Formatter {
     let wordsToTitlize = ["the", "a", "an", "but", "of", "and", "for", "at", "by", "from"];
     
     let splitStr = str.split(" ");
+    let result = [];
     
     for (let i = 0; i < str.length; i++) {
       if (i === 0) {
-        strSplit[i] = strSplit[i].capitalize();
+        result.push(this.)
       }
     }
   }
