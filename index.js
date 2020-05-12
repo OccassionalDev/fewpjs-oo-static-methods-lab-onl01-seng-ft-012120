@@ -17,8 +17,10 @@ class Formatter {
     
     for (let i = 0; i < str.length; i++) {
       if (i === 0) {
-        result.push(this.)
+        result.push(this.capitalize(splitStr[i]));
       }
+      
+      else if ()
     }
   }
 }
