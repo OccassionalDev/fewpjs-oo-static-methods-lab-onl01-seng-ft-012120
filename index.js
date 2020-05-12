@@ -15,8 +15,8 @@ class Formatter {
     let splitStr = str.split(" ");
     
     for (let i = 0; i < str.length; i++) {
-      if (i == 0) {
-        strSplit.charAt(i) = 
+      if (i === 0) {
+        strSplit[i] = strSplit[i].capitalize();
       }
     }
   }
