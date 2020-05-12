@@ -22,7 +22,7 @@ class Formatter {
       
       else {
         if (wordsToTitlize.includes(splitStr[i])) {
-          result.push(arrayOfWords[ n ]);
+          result.push();
         } 
         
         else {
