@@ -21,7 +21,13 @@ class Formatter {
       }
       
       else {
+        if (wordsToTitlize.includes(splitStr[i])) {
+          result.push(arrayOfWords[ n ]);
+        } 
         
+        else {
+          result.push(this.capitalize(splitStr[i]));
+        }
       }
     }
   }
